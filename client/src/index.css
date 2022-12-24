@@ -9,9 +9,8 @@ body {
 
 .component {
   background-color: white;
-  width: 25%;
-  max-width: 600px;
-  margin: 1em auto;
+  width: 100%;
+  margin: 0.1em auto;
   padding-bottom: 2em;
   border: 0.1px solid black;
   border-radius: 10px;
@@ -19,6 +18,7 @@ body {
 
 .musicCover {
   border-radius: 10%;
+  width: 85%;
 }
 
 .playButton {
@@ -50,9 +50,38 @@ body {
 input[type="range"] {
   background-color: #27ae60;
 }
-
-@media (max-width: 900px) {
+@media (min-width: 350px) {
+  .component {
+    width: 80%;
+  }
+}
+@media (min-width: 450px) {
+  .component {
+    width: 70%;
+  }
+}
+@media (min-width: 550px) {
+  .component {
+    width: 60%;
+  }
+}
+@media (min-width: 650px) {
   .component {
     width: 50%;
+  }
+}
+@media (min-width: 750px) {
+  .component {
+    width: 40%;
+  }
+}
+@media (min-width: 850px) {
+  .component {
+    width: 35%;
+  }
+}
+@media (min-width: 950px) {
+  .component {
+    width: 370px;
   }
 }
